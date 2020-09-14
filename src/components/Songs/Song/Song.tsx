@@ -1,12 +1,7 @@
 import React from 'react';
 import { EyeIcon } from '../../common/icons/EyeIcon';
 import styles from './Song.module.css';
-
-export interface SongType {
-    id: number,
-    band?: string,
-    name?: Function
-}
+import { SongType } from '../../../api/someApi';
 
 interface SongProps {
     song: SongType,
@@ -24,7 +19,7 @@ const Song: React.FC<SongProps> = (props: SongProps) => {
                 <div>
                     {`${band} - ${name}`}
                 </div>
-                    {trackedSong === id ? <EyeIcon /> : null}
+                {trackedSong === id ? <EyeIcon /> : null}
             </div>
         </td>
     </tr>

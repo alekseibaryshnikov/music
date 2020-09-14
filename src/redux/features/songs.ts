@@ -1,6 +1,5 @@
 import { createSlice } from '@reduxjs/toolkit';
-import { getSongs } from '../../api/someApi';
-import { SongType } from '../../components/Songs/Song/Song';
+import { getSongs, SongType } from '../../api/someApi';
 
 const slice = createSlice({
     name: 'songs',

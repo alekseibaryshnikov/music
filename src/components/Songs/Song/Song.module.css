@@ -1,0 +1,30 @@
+.row {
+    padding: 5px;
+    cursor: pointer;
+}
+
+.row:nth-child(even) {
+    background-color: var(--grey);
+}
+
+.row td {
+    padding: 5px 10px;
+    border-collapse: collapse;
+    position: relative;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    height: 30px;
+    justify-content: right;
+}
+
+.title div:nth-child(1) {
+    width: 90%;
+}
+
+.title div:nth-child(2) {
+    width: 10%;
+    text-align: right;
+}

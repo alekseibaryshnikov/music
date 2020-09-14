@@ -1,0 +1,23 @@
+.container {
+    padding: 5px;
+}
+
+.table {
+    border: 1px solid var(--grey);
+    border-radius: 5px;
+    overflow: hidden;
+    border-spacing: 0;
+    width: 100%;
+    table-layout: auto;
+}
+
+.header th {
+    padding: 5px 10px;
+    border-bottom: 2px solid var(--grey);
+    font-weight: normal;
+    color: var(--dark-grey);
+}
+
+.left {
+    text-align: left;
+}
